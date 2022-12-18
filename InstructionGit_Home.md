@@ -70,3 +70,4 @@
 ## merge
 > merge branch_name
 
+объединение текущей ветки с branch_name
