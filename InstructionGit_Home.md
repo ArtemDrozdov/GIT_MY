@@ -59,3 +59,11 @@
 > branch NameNewBranch
 
 создание новой ветки проекта от текущего ветки
+
+> branch -d NameDeletedBranch
+
+удаление ветки с проверкой на объединение с Masterom
+
+## merge
+> merge branch_name
+
