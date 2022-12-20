@@ -48,6 +48,9 @@
 > log --graph
 
 Вывод всех имеющихся сохранений в виде псевдографа
+> log -oneline --graph
+
+Вывод всех имеющихся сохранений без Имени и маила
 
 ## checkout
 > checkout branch_name
@@ -67,7 +70,21 @@
 
 удаление ветки с проверкой на объединение с Masterom
 
+> branch -D NameDeletedBranch
+
+удаление ветки БЕЗ ПРОВЕРКИ на объединение с Masterom, с потерей данных по ветке
+
+> branch -f master IndexNameBranch
+
+удаление ветки с проверкой на объединение с Masterom
+
 ## merge
 > merge branch_name
 
 объединение текущей ветки с branch_name
+
+## reflog
+> reflog HEAD
+
+измененый log, в котором показаны все изменения по log
+журнал перемещения всей головы
